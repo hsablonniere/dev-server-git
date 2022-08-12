@@ -1,0 +1,21 @@
+{
+  "name": "dev-server-git",
+  "version": "0.0.1",
+  "description": "WIP",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "dev:vite": "vite",
+    "dev:wds": "wds -c web-dev-server.config.js"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.19.1",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.33",
+    "lodash-es": "^4.17.21",
+    "vite": "^2.9.15"
+  }
+}
