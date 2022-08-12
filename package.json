@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "module": "index.js",
+  "files": [
+    "index.js",
+    "src"
+  ],
   "scripts": {
     "dev:vite": "vite",
     "dev:wds": "wds -c web-dev-server.config.js"
