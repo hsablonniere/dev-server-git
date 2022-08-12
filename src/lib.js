@@ -33,9 +33,6 @@ export async function getFileFromGit (ref, rawFilepath) {
     return {
       type,
       body,
-      get bodyString () {
-        return body.toString('utf8');
-      },
     };
   }
   catch (e) {
